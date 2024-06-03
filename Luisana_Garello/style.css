@@ -1,0 +1,53 @@
+header{
+    width: 100%;
+}
+
+img{
+    width: 200px;
+}
+
+h1{
+    font-size: 34px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 23px;
+
+}
+
+li{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+    
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(162, 204, 180);
+}
+
+header div{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+nav ul {
+    display: inline-block;
+    list-style: none; 
+    padding: 0; 
+ }
+  nav ul li {
+    display: inline; 
+    margin: 0 10px; 
+  }
+
+img{
+    width: 300px;
+}

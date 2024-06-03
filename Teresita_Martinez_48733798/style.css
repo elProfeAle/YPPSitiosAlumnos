@@ -1,0 +1,61 @@
+*{
+    margin: 0%;
+    padding: 0%;
+  }
+  header ul{
+ background-image: url(https://img.freepik.com/photos-premium/vieilles-touches-piano-bois-au-premier-plan-instrument-musique-fond-sombre_410516-43082.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   height: 60vh;
+   display: flex;
+  flex-direction: row;
+ }
+ header ul{
+   list-style: none;
+   display: flex;
+   flex-direction: row;
+ }
+ header ul li{
+   margin: 5vh;}
+
+
+li {
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
+
+h1, h2, p {
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+   padding: 1%;
+}
+
+
+.margen {
+    margin: 5%;
+ 
+}
+
+
+p{
+    font-size: 20px;
+}
+
+body{
+    background-color: beige;
+}
+
+nav{
+    display: flex;
+    justify-content: start;
+}
+
+a{
+    color: beige;
+}
+
+
+.e {
+    width: 50%;
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 5vw;
+    color: #2a9d8f;
+    margin-bottom: 20px;
+}
+
+.datos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.palabra {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #2a9d8f;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.boton {
+    background-color: #2a9d8f;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.boton:hover {
+    background-color: #21867a;
+}
+
+.resultado {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: #e76f51;
+}
+/* Esto Fue Totalmente Realizado Por Benicio Urban */

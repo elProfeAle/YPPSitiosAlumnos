@@ -1,0 +1,110 @@
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(109, 24, 24);
+    width: 100%;
+    height: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+header ul li{
+    margin: 10px;
+    color: rgb(255, 255, 255);
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 250px;
+}
+
+h1{
+    font-size: 34px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+p{
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    font-size: 25px;
+    color: rgb(236, 236, 250);
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    font-size: 34px;
+}
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0  10px  0;
+    background-color: rgb(92, 28, 28);
+    color: rgb(223, 230, 230);
+}
+
+.caja{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+     width: 600px;
+     height: 400px;
+}
+
+.cajap{
+    align-items: center;
+    margin-right: 5%;
+}
+
+.contenedor2{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(102, 38, 38);
+    color: rgb(223, 230, 230);
+
+}
+
+.contenedor2{
+    height: 1px;
+}
+
+
+.contenedor4 {
+    margin: 10px;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+footer{
+    color: rgb(70, 27, 27);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h3{
+    color: rgb(75, 26, 26);
+}

@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00498f; /* Azul Boca Juniors */
+    color: #f6d244; /* Amarillo Boca Juniors */
+}
+
+header {
+    background-color: #f6d244; /* Amarillo Boca Juniors */
+    color: #00498f; /* Azul Boca Juniors */
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #f6d244; /* Amarillo Boca Juniors */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #f6d244; /* Amarillo Boca Juniors */
+    color: #00498f; /* Azul Boca Juniors */
+    text-align: center;
+    padding: 10px 0;
+}
+
+.center {
+    text-align: center; align-content: stretch;
+    margin: 0 auto; -ms-text-combine-horizontal: all;
+    max-width: 80%; 
+}
+
+
+

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsdeportes.com
+    </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        #content {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Newsdeportes</h1>
+    </header>
+    <nav>
+        <a href="#" onclick="showhome()">Inicio</a>
+        <a href="#" onclick="showFootball()">Fútbol</a>
+        <a href="#" onclick="showBasketball()">Basketball</a>
+        <a href="#" onclick="showTennis()">Tenis</a>
+    </nav>
+    <div id="content">
+        <h2>Bienvenido a Newsdeportes</h2>
+        <p>tu destino definitivo para estar al tanto de todas las emociones, noticias y análisis del mundo del deporte. Sumérgete en un universo donde la pasión y la competencia se entrelazan para crear momentos inolvidables.
+
+            En Newsdeportes, te ofrecemos una cobertura completa de una amplia gama de deportes, desde el fútbol hasta el baloncesto, pasando por el tenis, el atletismo y mucho más. Nuestro equipo de expertos se esfuerza por brindarte las últimas noticias, resultados en tiempo real, entrevistas exclusivas con atletas destacados y análisis detallados de los eventos deportivos más importantes.
+            
+            ¿Buscas estadísticas detalladas? ¿Quieres revivir los momentos más épicos de tu equipo favorito? ¿O simplemente necesitas mantenerte al tanto de lo que está sucediendo en el mundo del deporte? No busques más. En Newsdeportes, tenemos todo lo que necesitas para satisfacer tu sed de deportes.
+            
+            Ya seas un apasionado aficionado o un devoto seguidor de un equipo en particular, estamos aquí para brindarte una experiencia deportiva única y emocionante. Únete a nuestra comunidad de entusiastas del deporte y descubre un mundo de emociones, competencia y camaradería en Newsdeportes. ¡Prepárate para vivir el deporte como nunca antes lo habías experimentado!</p>
+        <p>Selecciona una categoría de deporte para obtener más información.</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Newsdeportes</p>
+    </footer>
+
+
+    <script>
+        function showhome() {
+            document.getElementById("content").innerHTML = `
+                <h2>Bienvenido a Newsdeportes</h2>
+                <p>tu destino definitivo para estar al tanto de todas las emociones, noticias y análisis del mundo del deporte. Sumérgete en un universo donde la pasión y la competencia se entrelazan para crear momentos inolvidables.
+
+En Newsdeportes, te ofrecemos una cobertura completa de una amplia gama de deportes, desde el fútbol hasta el baloncesto, pasando por el tenis, el atletismo y mucho más. Nuestro equipo de expertos se esfuerza por brindarte las últimas noticias, resultados en tiempo real, entrevistas exclusivas con atletas destacados y análisis detallados de los eventos deportivos más importantes.
+
+¿Buscas estadísticas detalladas? ¿Quieres revivir los momentos más épicos de tu equipo favorito? ¿O simplemente necesitas mantenerte al tanto de lo que está sucediendo en el mundo del deporte? No busques más. En Newsdeportes, tenemos todo lo que necesitas para satisfacer tu sed de deportes.
+
+Ya seas un apasionado aficionado o un devoto seguidor de un equipo en particular, estamos aquí para brindarte una experiencia deportiva única y emocionante. Únete a nuestra comunidad de entusiastas del deporte y descubre un mundo de emociones, competencia y camaradería en Newsdeportes. ¡Prepárate para vivir el deporte como nunca antes lo habías experimentado!</p>
+                <p>Selecciona una categoría de deporte para obtener más información</p>
+            `;
+        }
+
+
+        function showFootball() {
+            document.getElementById("content").innerHTML = `
+                <h2>Fútbol</h2>
+                <p>El fútbol, también conocido como fútbol asociación o simplemente fútbol, es un deporte de equipo ampliamente popular jugado entre dos equipos de once jugadores cada uno. El objetivo del juego es marcar goles metiendo el balón en la portería del equipo contrario. Los jugadores utilizan principalmente los pies para golpear el balón, pero también pueden usar otras partes del cuerpo excepto las manos y los brazos (excepto el portero dentro de su área penal). Se juega en un campo rectangular con una portería en cada extremo.
+
+El fútbol es conocido por su simplicidad y su atractivo universal, atrayendo a grandes audiencias y aficionados apasionados en todo el mundo. No es solo un deporte, sino a menudo un fenómeno cultural profundamente arraigado en la identidad de muchas naciones. El juego fomenta el trabajo en equipo, la estrategia, la habilidad y la destreza física, lo que lo hace tanto exigente físicamente como estimulante mentalmente. Además, el fútbol cuenta con diversas ligas y competiciones a nivel nacional e internacional, como la Copa Mundial de la FIFA, la Liga de Campeones de la UEFA, la Premier League Inglesa, La Liga, la Serie A, y muchas más, cada una con su propia historia rica y una base de aficionados fiel y apasionada.</p>
+                <p>El objetivo del fútbol es marcar goles al equipo contrario y evitar que te marquen goles en tu propia portería. Ganar un partido de fútbol significa haber marcado más goles que el equipo oponente al final del tiempo reglamentario. Es un juego en el que se combina habilidad técnica, táctica, trabajo en equipo y estrategia para conseguir superar al rival y conseguir la victoria.
+
+
+
+</p>
+            `;
+        }
+
+
+        function showBasketball() {
+            document.getElementById("content").innerHTML = `
+                <h2>Baloncesto</h2>
+                <p>El baloncesto es un emocionante deporte de equipo que se juega en una cancha rectangular con dos aros elevados en cada extremo. Los equipos, compuestos por cinco jugadores cada uno, compiten por marcar puntos lanzando un balón de baloncesto a través del aro del equipo contrario.
+
+El objetivo fundamental del juego es anotar más puntos que el equipo rival durante el tiempo de juego establecido, que generalmente consta de cuatro cuartos. Los puntos se pueden obtener de diferentes maneras, incluyendo tiros de campo desde diversas distancias, tiros libres después de faltas cometidas por el equipo contrario, y tiros de tres puntos desde más allá del arco de tres puntos.
+
+El baloncesto es un deporte rápido y dinámico que requiere habilidades tanto físicas como mentales. Los jugadores deben ser ágiles, tener buenos reflejos y poseer una excelente coordinación mano-ojo. Además, la estrategia y la táctica desempeñan un papel crucial, ya que los equipos buscan superar a sus oponentes mediante jugadas elaboradas, defensas sólidas y una buena coordinación en equipo.
+
+El baloncesto no solo es un deporte competitivo, sino también una fuente de entretenimiento y pasión para millones de aficionados en todo el mundo. Desde las ligas profesionales hasta los torneos universitarios y los emocionantes juegos callejeros, el baloncesto continúa inspirando a jugadores de todas las edades y culturas, ofreciendo una combinación única de habilidad, emoción y camaradería.</p>
+                <p>El objetivo principal del baloncesto es anotar más puntos que el equipo contrario al final del juego. Esto se logra lanzando el balón a través del aro del equipo oponente. Cada vez que un equipo logra hacer esto, obtiene una cantidad específica de puntos dependiendo de la ubicación desde la cual se hizo el lanzamiento. Por ejemplo, un tiro desde dentro del arco de tres puntos vale dos puntos, mientras que un tiro desde fuera del arco de tres puntos vale tres puntos. Además, los jugadores también pueden obtener puntos desde la línea de tiros libres después de ser objeto de falta por parte del equipo contrario. El equipo que tenga más puntos al final del tiempo reglamentario o tiempo extra, en caso de empate, es declarado ganador del juego. En resumen, el objetivo fundamental del baloncesto es marcar más puntos que el equipo contrario mediante lanzamientos precisos y estrategias tácticas efectivas.
+
+
+
+</p>
+            `;
+        }
+
+
+        function showTennis() {
+            document.getElementById("content").innerHTML = `
+                <h2>Tenis</h2>
+                <p>El tenis es un apasionante deporte individual o de dobles que se juega en una pista rectangular dividida por una red. Cada jugador o pareja de jugadores se ubica en un lado de la pista, y el objetivo es golpear la pelota con una raqueta para que pase por encima de la red y aterrice dentro del área de juego del oponente, con la intención de que este último no pueda devolverla.
+
+El juego se disputa en puntos, juegos, sets y, en algunos casos, tie-breaks. Para ganar un punto, un jugador debe lograr que su oponente no devuelva la pelota dentro de los límites de la pista, o que esta última rebote más de una vez antes de ser devuelta. Un juego se gana al acumular cuatro puntos, con una ventaja de al menos dos puntos sobre el oponente. Para ganar un set, un jugador o pareja debe ganar seis juegos con una ventaja de al menos dos juegos sobre el oponente. Si ambos jugadores o parejas empatan a seis juegos, generalmente se juega un tie-break para determinar al ganador del set.
+
+El tenis es un deporte que requiere una combinación de habilidad técnica, resistencia física, agilidad mental y estrategia táctica. Los jugadores deben tener una excelente coordinación mano-ojo, así como la capacidad de moverse rápidamente por la pista para alcanzar y golpear la pelota de manera efectiva. Además, la capacidad de mantener la calma bajo presión y adaptar la estrategia según las circunstancias del partido son habilidades clave para tener éxito en este deporte.
+
+El tenis es también un deporte muy popular a nivel mundial, con numerosos torneos de prestigio como los cuatro Grand Slam (Abierto de Australia, Roland Garros, Wimbledon y el Abierto de Estados Unidos), así como eventos importantes en los circuitos ATP y WTA. Además de ser un deporte competitivo de élite, el tenis es disfrutado por millones de personas de todas las edades y niveles de habilidad en todo el mundo como una forma divertida y saludable de ejercicio y entretenimiento.</p>
+                <p>El objetivo principal del tenis es ganar puntos para ganar juegos, juegos para ganar sets, y sets para ganar el partido. Esto se logra golpeando la pelota con la raqueta de manera que el oponente no pueda devolverla adecuadamente dentro de los límites de la pista. Los jugadores buscan colocar la pelota en áreas estratégicas de la pista para presionar al oponente y ganar puntos. Además, el tenis es un deporte que promueve la salud física y mental, la socialización y la competitividad en un entorno deportivo.</p>
+            `;
+        }
+    </script>
+</body>
+</html>
